@@ -1,26 +1,48 @@
 #app {
     display: grid;
-    height: 1000px;
-    width: 500px;
+    height: 1100px;
+    width: 900px;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 15% 20% 45% 20%;
+    grid-template-rows: repeat(5, 1fr);
 }
 
 #fish {
     grid-column: 1 / 3;
+    width: 690px;
+    height: 230px;
 }
 
 #japan {
     grid-column: 1 / 3;
     grid-row: 2 / 3;
+    width: 690px;
+    height: 230px;
+
 }
 
 #bamboo {
     grid-column: 2 / 5;
-    grid-row: 3 / 4;
+    grid-row: 3 / 5;
+    height: 440px;
+    width: 640px;
 }
 
 #vase-tall {
     grid-column: 1 / 2;
-    grid-row: 3 / 5;
+    grid-row: 3 / 6;
+    height: 640px;
+}
+
+#vase-short {
+    grid-column: 4 / 5;
+    grid-row:  1 / 3;
+    height: 460px;
+    width: 215px;
+}
+
+#quad {
+    grid-column: 2 / 5;
+    grid-row: 5 / 6;
+    width: 640px;
+    height: 220px;
 }
